@@ -17,6 +17,8 @@
                     <a id="reboot" class="btn btn-default tip" data-original-title="Copy this snippet"><span class="glyphicon glyphicon-retweet"></span>Add Flight</a>
                     <h4>Flight Details for Every Flight</h4>
                     <div class="table-responsive">
+
+
                         <table id="mytable" class="table table-bordred table-striped">
                             <thead>
                                 <th>
