@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flight_Reservation_System", "Flight_Reservation_System\Flight_Reservation_System.csproj", "{75B44A12-7D1C-4B74-B731-4B6AEFF267CD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1D5EFE77-8A6D-442F-A78A-AF42BF46DF3A}"
+	ProjectSection(SolutionItems) = preProject
+		FlightTable.html = FlightTable.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

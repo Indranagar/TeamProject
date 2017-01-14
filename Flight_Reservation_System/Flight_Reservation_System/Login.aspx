@@ -20,7 +20,8 @@
             <h3>Password:</h3>
             <asp:TextBox ID="txtPassword" placeholder="Password" TextMode="Password" runat="server"></asp:TextBox>
             <br>
-            <asp:Button Text="Login" CssClass="login-button" runat="server" />
+
+            <asp:Bu tton Text="Login" CssClass="login-button" runat="server" />
             <br>
             <a class="sign-up">Sign Up!</a>
             <br>

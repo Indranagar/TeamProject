@@ -95,6 +95,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Css\style.css" />
+    <Content Include="Index.html" />
+    <Content Include="js\bootstrap.min.js" />
     <Content Include="login.html" />
     <Content Include="js\index.js" />
     <Content Include="packages.config" />
@@ -129,8 +131,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Admin\" />
     <Folder Include="App_Data\" />
+    <Folder Include="Bussiness\" />
+    <Folder Include="DataModel\" />
     <Folder Include="Models\" />
+    <Folder Include="Resources\Documents\" />
+    <Folder Include="Resources\Images\" />
+    <Folder Include="User\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
