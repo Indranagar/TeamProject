@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Flight_Reservation_System.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AdminLogin.aspx.cs" Inherits="Flight_Reservation_System.Login" %>
 
 <!DOCTYPE html>
 <html>
