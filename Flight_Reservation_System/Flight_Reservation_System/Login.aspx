@@ -8,17 +8,19 @@
     <script src="Scripts/jquery-3.1.1.min.js"></script>
 </head>
 <body>
+    <form runat="server">
     <div class="login">
         <div class="login-header">
             <h1>Login</h1>
         </div>
         <div class="login-form">
             <h3>Username:</h3>
-            <input type="text" placeholder="Username" /><br>
-            <h3>Password:</h3>
-            <input type="password" placeholder="Password" />
+            <asp:TextBox ID="txtUserName" placeholder="Username" runat="server"></asp:TextBox>
             <br>
-            <input type="button" value="Login" class="login-button" />
+            <h3>Password:</h3>
+            <asp:TextBox ID="txtPassword" placeholder="Password" TextMode="Password" runat="server"></asp:TextBox>
+            <br>
+            <asp:Button Text="Login" CssClass="login-button" runat="server" />
             <br>
             <a class="sign-up">Sign Up!</a>
             <br>
@@ -28,6 +30,7 @@
     <div class="error-page">
         <div class="try-again">Error: Try again?</div>
     </div>
+        </form>
     <script type="text/javascript">
         $('.error-page').hide(0);
 
