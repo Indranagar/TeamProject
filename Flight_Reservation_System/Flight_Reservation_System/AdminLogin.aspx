@@ -21,7 +21,7 @@
             <asp:TextBox ID="txtPassword" placeholder="Password" TextMode="Password" runat="server"></asp:TextBox>
             <br>
 
-            <asp:Bu tton Text="Login" CssClass="login-button" runat="server" />
+            <asp:Button Text="Login" CssClass="login-button" runat="server" />
             <br>
             <a class="sign-up">Sign Up!</a>
             <br>
