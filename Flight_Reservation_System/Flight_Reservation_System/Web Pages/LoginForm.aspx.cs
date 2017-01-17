@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Flight_Reservation_System
 {
-    public partial class Login : System.Web.UI.Page
+    public partial class LoginForm : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
